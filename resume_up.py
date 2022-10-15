@@ -82,7 +82,7 @@ class ResumeUp:
 
 
 if __name__ == '__main__':
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
     handler = RotatingFileHandler('resume_up.log', maxBytes=51200,
                                   backupCount=3)
     formatter = logging.Formatter(
