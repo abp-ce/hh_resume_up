@@ -71,7 +71,7 @@ class ResumeUp:
                 )
                 if rr.ok:
                     logger.info(f'Поднято {r["title"]}')
-                    self.__send_to_telegram(f'Успешнл поднято {r["title"]}')
+                    self.__send_to_telegram(f'Успешно поднято {r["title"]}')
                 else:
                     logger.error(rr.json())
                     self.__send_to_telegram(f'Ошибка поднятия {r["title"]}')
