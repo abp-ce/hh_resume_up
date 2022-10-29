@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 import requests
 from dotenv import load_dotenv, set_key
 
-HH_URL = 'https://api.hh.ru'
+HH_URL = 'https://hh.ru'
 HH_API_URL = 'https://api.hh.ru'
 
 load_dotenv()
